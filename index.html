@@ -17,6 +17,7 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.3.12/plyr.css">
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
@@ -24,12 +25,28 @@
     
     <h1>John Wick Chapter 3</h1>
 
-    <video src="video/trailer.mp4" controls ></video>
+    <div class="trailer">
+        <div id="player" data-plyr-provider="youtube" data-plyr-embed-id="pU8-7BX9uxs"></div>
+    </div>
+
+    <div class="cast">
+        <div class="container">
+          <div class="item item1"></div>
+          <div class="item item2"></div>
+          <div class="item item3"></div>
+          <div class="item item4"></div>
+          <div class="item item5"></div>
+          <div class="item item6"></div>
+          <div class="item item7"></div>
+          <div class="item item8"></div>
+        </div>
+    </div>
 
 
     <!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Plugins -->
+    <script src="https://cdn.plyr.io/3.3.12/plyr.js"></script>
     <!-- My Scripts -->
     <script src="js/scripts.js"></script>
 </body>
