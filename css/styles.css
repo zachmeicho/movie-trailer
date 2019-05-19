@@ -80,3 +80,13 @@ h1 {
 p {
   margin: 20px;
 }
+
+
+/* plyr updates */
+.plyr--full-ui input[type=range] {
+  color: #563365db;
+}
+
+.plyr--video .plyr__controls .plyr__control.plyr__tab-focus, .plyr--video .plyr__controls .plyr__control:hover, .plyr--video .plyr__controls .plyr__control[aria-expanded=true] {
+  background: #563365db;
+}
