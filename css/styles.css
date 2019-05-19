@@ -13,6 +13,7 @@ body {
   background-image: url('../assets/JohnWick.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #563365;
 }
 
 
@@ -36,9 +37,9 @@ body {
 
 .item {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-  color: #fff;
   border-radius: 4px;
   border: 6px solid #171717;
+  background-color: #563365db;
 }
 
 
@@ -66,6 +67,7 @@ main {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   border-radius: 4px;
   border: 6px solid #171717;
+  background-color: #563365db;
 }
 
 h1 {
