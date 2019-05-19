@@ -9,10 +9,11 @@ const player = new Plyr( '#player' , {
     
   } );
 
-
+//broken below
   $('item1').hover( function(){
   
-    $('item1').addClass( 'item1:hover' );
+    $(divdivdivp).addClass('tr');
     console.log('OK');
+    
     
   } );
