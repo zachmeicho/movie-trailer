@@ -8,3 +8,11 @@ const player = new Plyr( '#player' , {
     
     
   } );
+
+
+  $('item1').hover( function(){
+  
+    $('item1').addClass( 'item1:hover' );
+    console.log('OK');
+    
+  } );
