@@ -1,5 +1,7 @@
 console.log('OK');
 
+
+//plyr
 const player = new Plyr( '#player' , {
   
     controls : ['play' , 'progress' , 'fullscreen' , 'volume' , 'mute'],
